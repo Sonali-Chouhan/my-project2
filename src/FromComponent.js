@@ -11,7 +11,7 @@ export default class Frompage extends React.Component {
       phone: "",
       user: [],
     };
-    
+
     this.handleChangeValue = this.handleChangeValue.bind(this);
   }
   handleChangeValue(event) {
@@ -84,7 +84,7 @@ export default class Frompage extends React.Component {
     }
   };
   // handleCancel = (id) => {
-    
+
   //   var items = JSON.parse(localStorage.getItem("user"));
   //   var data=items[id]
   //   this.setState({
@@ -209,7 +209,7 @@ export default class Frompage extends React.Component {
               })}
             </tbody>
           </table>
-         
+
         </div>
       </div>
     );
