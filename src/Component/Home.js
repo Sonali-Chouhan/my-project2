@@ -69,4 +69,3 @@ export default class Frompage extends React.Component {
   }
 }
 
-// =({Data,handleChangeValue});
